@@ -1,0 +1,173 @@
+:root {
+    --background-color: rgb(327, 246, 248);
+    --light-color: #ffffff;
+    --dark-color: #000000;
+    --link-color: rgb(196, 16, 205);
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--background-color);
+    margin: 0 1em;
+    font-size: 16px;
+}
+
+main {
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+}
+
+#head h3 a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.sub-head{
+    margin-left: auto;
+    order: 2;
+}
+
+h1 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-size: 3em;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.post{
+    border: 1px solid var(--dark-color);
+    margin-bottom: 3em;
+    padding: .5em 1em;
+}
+
+#post{
+    border:1px solid var(--dark-color);
+    background-color: rgb(19, 174, 161);
+    margin-bottom: 3em;
+    padding: .5em 1em;
+}
+
+.post, #post {
+   
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    a{
+        color: var(--link-color);
+        background-color:rgb(237, 149, 34);
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.special-headline {
+    font-weight: 900;
+    color: rgb(72, 16, 111);
+}
+
+.highlight {
+background-color:cornflowerblue;
+color: var(--light-color);
+h2 {
+    color: var(--light-color);
+}
+}
+
+
+
+
+
+/* Lab 2 Styles */
+
+.logo-holder {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--body-color);
+    font-weight: bold;
+}
+
+#logo {
+    height: 3em;
+    width: auto;
+    float: left;
+    margin-right: 5em;
+}
+
+.sub-head {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Lab 3 Styles */
+
+.hide-me {
+    display: none;
+}
+
+.post span {
+    color: coral;
+}
+
+.block-div, .block {
+    display: block;
+    border-radius: 1em;
+    color: coral;
+    background-color:lightseagreen;
+    border: 1px solid var(--dark-color);
+    padding: 1em;
+}
+
+.block {
+    margin: 1em 0;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.2em 0.8em;
+    color: var(--dark-color);
+    background-color: coral;
+    transform: rotate(-8deg);
+    font-weight: 800;
+    font-variation-settings: "width" 75;
+}
+
+.static {
+    position: static;
+    border: 1px solid var(--dark-color);
+}
+
+.fixed {
+    z-index: 999;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 200px;
+    padding: 1em;
+    background-color: coral;
+    border: 1px solid var(--dark-color);
+  }
