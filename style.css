@@ -1,0 +1,20 @@
+:root {
+    margin-left: 200px;
+}
+
+h1 {
+    font-family: "Trirong", serif;
+    font-size: 70px;
+    color:black
+  }
+
+  .img {
+    margin-left: 900px;
+  }
+
+  .container {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+  }
