@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 25.66 5.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.2, SVG Export Plug-In . SVG Version: 1.2.0 Build 154)  -->
+  <g>
+    <g id="Layer_1">
+      <g>
+        <g>
+          <polyline class="cls-1" points=".5 5.91 .5 .5 5.45 .5 5.45 3.66 3.23 3.66"/>
+          <polyline class="cls-1" points="4.12 2.28 2.23 2.28 2.23 5.41 6.79 5.41"/>
+          <polyline class="cls-1" points="6.79 5.91 6.79 .5 11.68 .5 11.68 3.66 9.49 3.66"/>
+          <polyline class="cls-1" points="10.41 2.28 8.52 2.28 8.52 5.41 13.08 5.41"/>
+        </g>
+        <g>
+          <polyline class="cls-1" points="13.08 5.91 13.08 .5 18.03 .5 18.03 3.66 15.81 3.66"/>
+          <polyline class="cls-1" points="16.7 2.28 14.81 2.28 14.81 5.41 19.37 5.41"/>
+          <polyline class="cls-1" points="19.37 5.91 19.37 .5 24.26 .5 24.26 3.66 22.07 3.66"/>
+          <polyline class="cls-1" points="22.99 2.28 21.1 2.28 21.1 5.41 25.66 5.41"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
