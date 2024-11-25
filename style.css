@@ -28,14 +28,74 @@ h3 {
   margin-top: 1em;
 }
 
+  .alcmene {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  }
+
+  .intro {
+    padding: 0 10%;
+  p {
+    font-size: 1.5rem;
+  }
+  }
+
+  .info {
+    display: flex;
+    column-gap: 40px;
+    padding: 0 10%;
+    margin-bottom: 5em;
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .birth {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .babysnake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .thegods {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .madness {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%
+  }
+
+  .oracle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%
+  }
+
 .topnav {
   position: fixed;
   top: 0;
   width: 100%;
   text-align: center;
   font-size: 17px;
+  background-color: darkolivegreen;
   a {
-    color:black;
+    color:antiquewhite;
     margin-right: 2em;
     padding: 1em 0;
     display: inline-block;
@@ -48,7 +108,7 @@ h3 {
     text-decoration: none;
   }
   a:hover {
-    color:darkolivegreen;
+    color:black;
   }
 }
 
@@ -58,8 +118,9 @@ h3 {
   width: 100%;
   text-align: center;
   font-size: 17px;
+  background-color: darkolivegreen;
   a {
-    color:black;
+    color:antiquewhite;
     padding: 1em 0;
     display: inline-block;
   }
@@ -71,7 +132,7 @@ h3 {
     text-decoration: none;
   }
   a:hover {
-    color:darkolivegreen;
+    color:black;
   }
 }
 
