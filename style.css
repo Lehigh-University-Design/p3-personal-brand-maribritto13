@@ -1,8 +1,5 @@
-:root {
-  background-color:antiquewhite;
-}
-
 body {
+  background-color:antiquewhite;
   font-family: "Inknut Antiqua", serif;
   font-weight: 400;
   font-style: normal;
@@ -10,10 +7,25 @@ body {
   margin: 0;
 }
 
-h1 {
+body.invert {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.title-outer {
   text-align: center;
+}
+
+.title-holder {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 2em;
+  background:url("images/leaves.svg") left no-repeat,url("images/leaves.svg") right no-repeat;
+}
+
+h1 {
   font-weight: 400;
-  margin-top: 1em;
+  margin: 0;
 }
 
 h2 {
@@ -25,7 +37,7 @@ h2 {
 h3 {
   text-align: center;
   font-weight: 400;
-  margin-top: 1em;
+  margin: 0;
 }
 
   .alcmene {
@@ -122,29 +134,49 @@ h3 {
     width: 60%;
   }
 
-.topnav {
+.topnav-holder {
   position: fixed;
+  background-color: darkolivegreen;
+  width: 100%;
   top: 0;
+}
+
+.topnav {
+  display: flex;
   width: 100%;
   text-align: center;
   font-size: 17px;
-  background-color: darkolivegreen;
+  align-items: center;
+  justify-content: center;
   a {
+    text-decoration: none;
+    align-content: center;
+    position: relative;
+    height: 5em;
     color:antiquewhite;
     margin-right: 2em;
     padding: 1em 0;
-    display: inline-block;
+    display: block;
   }
   a:last-child {
     margin-right: 0;
   }
-  a:link {
+  a:hover, a.active {
     color: rgb(0, 0, 0);
     text-decoration: none;
   }
   a:hover {
     color:black;
   }
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+main {
+  margin-top: 8rem;
 }
 
 .bottomnav {
@@ -154,15 +186,22 @@ h3 {
   text-align: center;
   font-size: 17px;
   background-color: darkolivegreen;
+  .next {
+    float: right;
+  }
+  .prev {
+    float: left;
+  }
   a {
     color:antiquewhite;
-    padding: 1em 0;
+    padding: 1em;
     display: inline-block;
+    text-decoration: none;
   }
   a:last-child {
     margin-right: 0;
   }
-  a:link {
+  a:hover {
     color: rgb(0, 0, 0);
     text-decoration: none;
   }
@@ -173,7 +212,7 @@ h3 {
 
 .pattern-border {
   width: 100%;
-  height: 1em;
+  height: 1rem;
   background-image: url("images/patternborder.svg");
   background-repeat: repeat-x;
 }
