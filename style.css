@@ -16,13 +16,6 @@ body.invert {
   text-align: center;
 }
 
-.title-holder {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 0 2em;
-  background:url("images/leaves.svg") left no-repeat,url("images/leaves.svg") right no-repeat;
-}
-
 h1 {
   font-weight: 400;
   margin: 0;
@@ -40,6 +33,12 @@ h3 {
   margin: 0;
 }
 
+.heracles {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
   .alcmene {
   display: block;
   margin-left: auto;
@@ -99,6 +98,13 @@ h3 {
     width: 30%
   }
 
+  .laborone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
   .labortwo {
     display: block;
     margin-left: auto;
@@ -134,6 +140,48 @@ h3 {
     width: 60%;
   }
 
+  .laborseven {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .laboreight {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .labornine {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .laborten {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .laboreleven {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .labortwelve {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
 .topnav-holder {
   position: fixed;
   background-color: darkolivegreen;
@@ -155,7 +203,6 @@ h3 {
     height: 5em;
     color:antiquewhite;
     margin-right: 2em;
-    padding: 1em 0;
     display: block;
   }
   a:last-child {
@@ -173,6 +220,7 @@ h3 {
 .logo {
   height: 100%;
   width: auto;
+  color: antiquewhite;
 }
 
 main {
@@ -180,7 +228,7 @@ main {
 }
 
 .bottomnav {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
